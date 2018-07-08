@@ -1,10 +1,10 @@
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": "Craft Zombie Spawn Egg",
-        "description": "Craft a zombie spawn egg. ",
+        "title": "Craft Nether Star",
+        "description": "Craft a nether star.",
         "icon": {
-            "item": "minecraft:zombie_spawn_egg"
+            "item": "minecraft:nether_star"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,7 +15,7 @@
         "craft": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "crafteverything:zombie_spawn_egg"
+                "recipe": "crafteverything:nether_star"
             }
         }
     },

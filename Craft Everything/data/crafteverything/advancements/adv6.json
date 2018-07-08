@@ -1,10 +1,10 @@
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": "Craft Mob Spawner",
-        "description": "Craft a monster spawner.",
+        "title": "Craft Enchanted Golden Apple",
+        "description": "Craft an enchanted golden apple.",
         "icon": {
-            "item": "minecraft:mob_spawner"
+            "item": "minecraft:enchanted_golden_apple"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,12 +15,12 @@
         "craft": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "crafteverything:mob_spawner"
+                "recipe": "crafteverything:enchanted_golden_apple"
             }
         }
     },
     "rewards": {
-        "experience": 10
+        "experience": 20
     },
     "parent": "crafteverything:root"
 }
