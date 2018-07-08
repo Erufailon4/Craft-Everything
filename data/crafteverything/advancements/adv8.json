@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Craft Zombie Spawn Egg",
+        "description": "Craft a zombie spawn egg. ",
+        "icon": {
+            "item": "minecraft:zombie_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "crafteverything:zombie_spawn_egg"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20
+    },
+    "parent": "crafteverything:root"
+}

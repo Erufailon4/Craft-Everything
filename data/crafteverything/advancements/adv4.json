@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": "Craft Chain Helmet",
+        "description": "Craft a chainmail helmet.",
+        "icon": {
+            "item": "minecraft:chainmail_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "crafteverything:chainmail_helmet"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "crafteverything:adv3"
+}
