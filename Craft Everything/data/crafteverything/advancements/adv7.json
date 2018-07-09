@@ -1,10 +1,10 @@
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": "Craft Mob Spawner",
-        "description": "Craft a monster spawner.",
+        "title": "Craft Spawner",
+        "description": "Craft a spawner.",
         "icon": {
-            "item": "minecraft:mob_spawner"
+            "item": "minecraft:spawner"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,7 +15,7 @@
         "craft": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "crafteverything:mob_spawner"
+                "recipe": "crafteverything:spawner"
             }
         }
     },
