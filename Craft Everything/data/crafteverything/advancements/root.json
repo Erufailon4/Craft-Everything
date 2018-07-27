@@ -10,7 +10,7 @@
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": false,
-        "background": "crafteverything:background.png"
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
     },
     "criteria": {
         "unobtainable": {
