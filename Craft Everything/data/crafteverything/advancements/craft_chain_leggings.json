@@ -1,10 +1,10 @@
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": "Craft Chain Chestplate",
-        "description": "Craft a chainmail chestplate.",
+        "title": "Craft Chain Leggings",
+        "description": "Craft chainmail leggings.",
         "icon": {
-            "item": "minecraft:chainmail_chestplate"
+            "item": "minecraft:chainmail_leggings"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,12 +15,12 @@
         "craft": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "crafteverything:chainmail_chestplate"
+                "recipe": "crafteverything:chainmail_leggings"
             }
         }
     },
     "rewards": {
         "experience": 10
     },
-    "parent": "crafteverything:adv2"
+    "parent": "crafteverything:craft_chain_boots"
 }

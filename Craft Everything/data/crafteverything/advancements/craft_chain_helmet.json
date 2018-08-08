@@ -1,10 +1,10 @@
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": "Craft Wither Skeleton Spawn Egg",
-        "description": "Craft a wither skeleton spawn egg. ",
+        "title": "Craft Chain Helmet",
+        "description": "Craft a chainmail helmet.",
         "icon": {
-            "item": "minecraft:wither_skeleton_spawn_egg"
+            "item": "minecraft:chainmail_helmet"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,12 +15,12 @@
         "craft": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "crafteverything:wither_skeleton_spawn_egg"
+                "recipe": "crafteverything:chainmail_helmet"
             }
         }
     },
     "rewards": {
-        "experience": 20
+        "experience": 10
     },
-    "parent": "crafteverything:adv12"
+    "parent": "crafteverything:craft_chain_chestplate"
 }

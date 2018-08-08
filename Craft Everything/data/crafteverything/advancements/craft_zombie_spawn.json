@@ -1,10 +1,10 @@
 {
     "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
-        "title": "Craft Skeleton Spawn Egg",
-        "description": "Craft a skeleton spawn egg. ",
+        "title": "Craft Zombie Spawn Egg",
+        "description": "Craft a zombie spawn egg. ",
         "icon": {
-            "item": "minecraft:skeleton_spawn_egg"
+            "item": "minecraft:zombie_spawn_egg"
         },
         "frame": "task",
         "show_toast": true,
@@ -15,12 +15,12 @@
         "craft": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "crafteverything:skeleton_spawn_egg"
+                "recipe": "crafteverything:zombie_spawn_egg"
             }
         }
     },
     "rewards": {
         "experience": 20
     },
-    "parent": "crafteverything:adv10"
+    "parent": "crafteverything:craft_witherskeleton_spawn"
 }
